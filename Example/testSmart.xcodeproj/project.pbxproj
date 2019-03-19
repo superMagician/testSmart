@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		83D8B9B72240F26400B6E0B6 /* CYFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D8B9B62240F26400B6E0B6 /* CYFirstViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CA48D06FCE6C6CAA67B019BD /* Pods_testSmart_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9032B11357166F4955584030 /* Pods_testSmart_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,8 @@
 		6CBADF5DBF810B195BB7F8B2 /* Pods_testSmart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testSmart_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A228848EFEF2A517A48A961 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83D8B9B52240F26400B6E0B6 /* CYFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFirstViewController.h; sourceTree = "<group>"; };
+		83D8B9B62240F26400B6E0B6 /* CYFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFirstViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		895AC9CFD1C0BC2E6334FF4F /* Pods-testSmart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSmart_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-testSmart_Example/Pods-testSmart_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9032B11357166F4955584030 /* Pods_testSmart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testSmart_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +101,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				83D8B9B52240F26400B6E0B6 /* CYFirstViewController.h */,
+				83D8B9B62240F26400B6E0B6 /* CYFirstViewController.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for testSmart */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -380,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CYAppDelegate.m in Sources */,
+				83D8B9B72240F26400B6E0B6 /* CYFirstViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* CYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
